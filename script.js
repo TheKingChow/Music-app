@@ -1,8 +1,6 @@
 /*
 design by Voicu Apostol.
 design: https://dribbble.com/shots/3533847-Mini-Music-Player
-I can't find any open music api or mp3 api so i have to download all musics as mp3 file.
-You can fork on github: https://github.com/muhammederdem/mini-player
 */
 
 new Vue({
@@ -17,75 +15,75 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Kanye’s Soul Mixshow - Full Mixtape",
-          artist: "Kanye West",
-          cover: "https://i1.sndcdn.com/artworks-000511479543-qydi5e-t500x500.jpg",
-          source: "https://www.youtube.com/watch?v=x12qGeopwRA&list=LL&index=13&t=404s",
+          name: "Poppin",
+          artist: "YEAT",
+          cover: "https://i1.sndcdn.com/artworks-mKINXUlMy1ka-0-t500x500.jpg",
+          source: "https://raw.githubusercontent.com/TheKingChow/Music-app/main/mp3/Yeat%20-%20Poppin.mp3",
           url: "https://www.youtube.com/watch?v=6j7V8xyis4U&list=LL&index=5",
           favorited: false
         },
         {
-          name: "Everybody Knows",
-          artist: "Leonard Cohen",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/2.mp3",
-          url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
+          name: "Trademark USA Remix",
+          artist: "Baby Keem",
+          cover: "https://i1.sndcdn.com/artworks-92e1Nms9jsgx-0-t500x500.jpg",
+          source: "https://raw.githubusercontent.com/TheKingChow/Music-app/main/mp3/baby%20keem%20trademark%20usa%20first%20beat%20with%20the%20twitter%20wistle%20(1).mp3",
+          url: "https://www.youtube.com/watch?v=MZLOliT8zXM&list=LL&index=14",
+          favorited: false
+        },
+        {
+          name: "Diet Coke",
+          artist: "Pusha T",
+          cover: "https://i.ytimg.com/vi/HFrwm6oRYJg/maxresdefault.jpg",
+          source: "https://raw.githubusercontent.com/TheKingChow/Music-app/main/mp3/Pusha%20T%20-%20Diet%20Coke.mp3",
+          url: "https://www.youtube.com/watch?v=HFrwm6oRYJg&list=LL&index=18",
+          favorited: false
+        },
+        {
+          name: "Brooklyn Anthem",
+          artist: "Vybz Kartel",
+          cover: "https://urbanislandz.com/wp-content/uploads/2011/11/vybz-kartel-prison-2011.jpg",
+          source: "https://raw.githubusercontent.com/TheKingChow/Music-app/main/mp3/Vybz%20Kartel%20-%20Brooklyn%20Anthem.mp3",
+          url: "https://www.youtube.com/watch?v=7VraVmAShQU",
+          favorited: false
+        },
+        {
+          name: "It Bend Like Banana",
+          artist: "Vybz Kartel",
+          cover: "https://images.genius.com/197b198a5660465512cf90c6381ec1b0.500x500x1.jpg",
+          source: "https://raw.githubusercontent.com/TheKingChow/Music-app/main/mp3/It%20Bend%20Like%20Banana.mp3",
+          url: "https://www.youtube.com/watch?v=gJJjSlXOs-8",
           favorited: true
         },
         {
-          name: "Extreme Ways",
-          artist: "Moby",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/3.mp3",
-          url: "https://www.youtube.com/watch?v=ICjyAe9S54c",
+          name: "Rubbers",
+          artist: "Frisco Kid",
+          cover: "https://i.discogs.com/H8W9OFfw1WKtgRZWOvO_OeCS4fJQ1uz32V2M6eI_vo0/rs:fit/g:sm/q:90/h:605/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxNjQx/ODctMTYyMTM2Mzc0/Ny01MDE3LmpwZWc.jpeg",
+          source: "https://raw.githubusercontent.com/TheKingChow/Music-app/main/mp3/Frisco%20Kid%20-%20Rubbers%20(Joy%20Ride%20Riddim)%20%5BHD%5D.mp3",
+          url: "https://www.youtube.com/watch?v=0tdS1jAwtS8&list=PLCqF6vRNw7IR7kTI3X3f0j44iha6hYI6b&index=7",
           favorited: false
         },
         {
-          name: "Butterflies",
-          artist: "Sia",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/4.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/4.mp3",
-          url: "https://www.youtube.com/watch?v=kYgGwWYOd9Y",
-          favorited: false
-        },
-        {
-          name: "The Final Victory",
-          artist: "Haggard",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/5.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/5.mp3",
-          url: "https://www.youtube.com/watch?v=0WlpALnQdN8",
+          name: "Bashment Lady",
+          artist: "Mega Banton",
+          cover: "https://cdn.shopify.com/s/files/1/1377/6983/products/81aec5e15a4109e181317cdf87324b0aa1eaed6e_1200x1200.jpg?v=1507652066",
+          source: "https://raw.githubusercontent.com/TheKingChow/Music-app/main/mp3/Mega%20Banton%20-%20Bashment%20Lady%20(Joy%20Ride%20Riddim)%20%5BHD%5D.mp3",
+          url: "https://www.youtube.com/watch?v=qtNh9N6Ris8&list=PLCqF6vRNw7IR7kTI3X3f0j44iha6hYI6b&index=23",
           favorited: true
         },
         {
-          name: "Genius ft. Sia, Diplo, Labrinth",
-          artist: "LSD",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/6.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/6.mp3",
-          url: "https://www.youtube.com/watch?v=HhoATZ1Imtw",
+          name: "She Got A Thing",
+          artist: "Pop Smoke",
+          cover: "https://preview.redd.it/qb7lycok0k551.jpg?auto=webp&s=a368647c1dcef0ba114726df5f8f8083b97fd9c4",
+          source: "https://raw.githubusercontent.com/TheKingChow/Music-app/main/mp3/POP%20SMOKE%20-%20SHE%20GOT%20A%20THING%20(Official%20Lyric%20Video).mp3",
+          url: "https://www.youtube.com/watch?v=dyZFHzOyz-c",
           favorited: false
         },
         {
-          name: "The Comeback Kid",
-          artist: "Lindi Ortega",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/7.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/7.mp3",
-          url: "https://www.youtube.com/watch?v=me6aoX0wCV8",
-          favorited: true
-        },
-        {
-          name: "Overdose",
-          artist: "Grandson",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/8.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/8.mp3",
-          url: "https://www.youtube.com/watch?v=00-Rl3Jlx-o",
-          favorited: false
-        },
-        {
-          name: "Rag'n'Bone Man",
-          artist: "Human",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
-          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          name: "Long Live Dolph",
+          artist: "Gucci Mane",
+          cover: "https://media.pitchfork.com/photos/61dc401ae5e3cbd18cf32c72/1:1/w_600/LLD%20Cover%20Final%201%20Updated.jpg",
+          source: "https://raw.githubusercontent.com/TheKingChow/Music-app/main/mp3/Gucci%20Mane%20-%20Long%20Live%20Dolph%20%5BMusic%20Video%5D.mp3",
+          url: "https://www.youtube.com/watch?v=aQXV92_1UwM&list=LL&index=35",
           favorited: false
         }
       ],
