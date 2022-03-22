@@ -1,3 +1,4 @@
+
 body {
   background: #dfe7ef;
   font-family: "Bitter", serif;
@@ -269,7 +270,7 @@ body {
 .progress__current {
   height: inherit;
   width: 0%;
-  background-color: #a3b3ce;
+  background-color: #000000;
   border-radius: 10px;
 }
 
