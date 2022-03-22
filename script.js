@@ -52,7 +52,7 @@ new Vue({
           cover: "https://images.genius.com/197b198a5660465512cf90c6381ec1b0.500x500x1.jpg",
           source: "https://raw.githubusercontent.com/TheKingChow/Music-app/main/mp3/It%20Bend%20Like%20Banana.mp3",
           url: "https://www.youtube.com/watch?v=gJJjSlXOs-8",
-          favorited: true
+          favorited: false
         },
         {
           name: "Rubbers",
@@ -68,7 +68,7 @@ new Vue({
           cover: "https://cdn.shopify.com/s/files/1/1377/6983/products/81aec5e15a4109e181317cdf87324b0aa1eaed6e_1200x1200.jpg?v=1507652066",
           source: "https://raw.githubusercontent.com/TheKingChow/Music-app/main/mp3/Mega%20Banton%20-%20Bashment%20Lady%20(Joy%20Ride%20Riddim)%20%5BHD%5D.mp3",
           url: "https://www.youtube.com/watch?v=qtNh9N6Ris8&list=PLCqF6vRNw7IR7kTI3X3f0j44iha6hYI6b&index=23",
-          favorited: true
+          favorited: false
         },
         {
           name: "She Got A Thing",
